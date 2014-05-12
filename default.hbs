@@ -12,16 +12,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
 	<link href="{{asset "css/prism.css"}}" rel="stylesheet" />
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-27264803-3', 'tobho.de');
-  ga('send', 'pageview');
-
-</script>
+	
 
     {{ghost_head}}
 </head>
@@ -31,7 +22,17 @@
 	{{{body}}}
 	
     {{ghost_foot}}
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-27264803-3', 'tobho.de');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script>
     <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
 	<script type="text/javascript" src="{{asset "js/prism.js"}}"></script>
